@@ -19,7 +19,7 @@ def create_story():
     """Function to get a random story based on a template"""
     story_template = (
         "{exclamation}! Today I went to the {place} and saw a very {adjective} {noun}."
-        "It was {adverb} {verb}ing around! I couldn't believe my eayes, so I decided to"
+        "It was {adverb} {verb}ing around! I couldn't believe my eyes, so I decided to "
         "{verb} along with it, What a day!" 
     )
 
