@@ -16,7 +16,7 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secerts.SSH_PRIVATE_KEY }}
         USERNAME: ${{ secrets.DEPLOY_USERNAME }}
         HOST: ${{ secrets.DEPLOY_HOST }}
-      - run: |
+       run: |
         echo "$SSH_PRIVATE_KEY" > private_key.pem
         chmod 600 private_key.pem
         ssh -i private_key.pm -o StrictHostKeyChecking=no $USERNAME@HOST << EOF
