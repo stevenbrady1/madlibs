@@ -20,7 +20,7 @@ def create_story():
     story_template = (
         "{exclamation}! Today I went to the {place} and saw a very {adjective} {noun}."
         "It was {adverb} {verb}ing around! I couldn't believe my eyes, so I decided to "
-        "{verb} along with it, What a day!!!" 
+        "{verb} along with it, What a day!" 
     )
 
     #Replace placeholders with randoom vars
@@ -40,4 +40,4 @@ def home():
     return create_story()
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8000)
+    app.run(host='0.0.0.0', port=7000)
